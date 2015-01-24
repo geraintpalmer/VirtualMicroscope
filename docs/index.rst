@@ -28,7 +28,7 @@ Contents:
 
    installation
    contributing
-
+   future_development
 
 
 Indices and tables
