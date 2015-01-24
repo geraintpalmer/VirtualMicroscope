@@ -1,0 +1,33 @@
+# User specific & automatically generated files #
+#################################################
+
+/app/Config/database.php
+/app/Config/core.php
+/app/composer.lock
+/Vagrantfile
+/.vagrant
+/dropoff.sublime-project
+/dropoff.sublime-workspace
+/app/tmp
+/lib/Cake/Console/Templates/skel/tmp/
+/build
+/dist
+/tags
+*.mo
+*.pyc
+# IDE and editor specific files #
+#################################
+
+/nbproject
+.idea
+# OS generated files #
+######################
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
