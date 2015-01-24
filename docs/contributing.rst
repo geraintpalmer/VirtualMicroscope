@@ -12,7 +12,7 @@ Contributing
 People interested in contributing to VirtualMicroscope should join the can visit #virtualmicroscope
 on the `freenode`_ IRC network for help and to discuss the development.
 
-VirtualMicroscope is hosted on `GitHub`_, at https://github.com/evildmp/VirtualMicroscope.
+VirtualMicroscope is `hosted on GitHub <https://github.com/evildmp/VirtualMicroscope>`_.
 
 The best method to contribute back is to create an account there, then fork the project. You can
 use this fork as if it was your own project, and should push your changes to it.
@@ -66,6 +66,12 @@ Inline markup
 References
 ----------
 
-Use absolute links to other documentation pages - ``:doc:`/how_to/toolbar``` -
-rather than relative links - ``:doc:`/../toolbar```. This makes it easier to
+Use absolute links to other documentation pages - ``:doc:`/installation``` -
+rather than relative links - ``:doc:`../isntallation```. This makes it easier to
 run search-and-replaces when items are moved in the structure.
+
+
+.. _freenode : http://freenode.net/
+.. _Sphinx: http://sphinx.pocoo.org/
+.. _restructuredText: http://docutils.sourceforge.net/docs/ref/rst/introduction.html
+.. _pull request : http://help.github.com/send-pull-requests/

@@ -26,6 +26,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   installation
+   contributing
+
 
 
 Indices and tables
