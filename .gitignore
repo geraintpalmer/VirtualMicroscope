@@ -11,6 +11,7 @@
 /app/tmp
 /lib/Cake/Console/Templates/skel/tmp/
 /build
+_build
 /dist
 /tags
 *.mo
