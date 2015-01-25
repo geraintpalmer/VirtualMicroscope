@@ -10,7 +10,7 @@ Welcome to VirtualMicroscope
 `VirtualMicroscope <https://github.com/evildmp/VirtualMicroscope>`_ is a Python/Django application
 to view, navigate and annotate very high-resolution images.
 
-It was was created at New York University School of Medicine for viewing medical slides for
+It was created at New York University School of Medicine for viewing medical slides for
 teaching and research purposes, but in fact is suitable for exploring any high-resolution images -
 from astronomy, museum collections, specialised photographic applications and so on.
 
