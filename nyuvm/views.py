@@ -378,7 +378,8 @@ def MarkerInfoWindow(request, slidemarkerid):
 		if FavoriteMarker.objects.filter(user=request.user,marker=slidemarker):
 			alreadyfavorite=True
 		#if its a student marker and is expired	
-		if (slidemarker.timestamp < (datetime.datetime.now()- datetime.timedelta(days=COMM_MARKER_EXPIRE))) and (request.user not in authors):
+		slidemarker_time_naive = slidemarker.timestamp.replace(tzinfo=None)
+		if (slidemarker_time_naive < (datetime.datetime.now()- datetime.timedelta(days=COMM_MARKER_EXPIRE))) and (request.user not in authors):
 			expired=True
 
 		#if its score is too low
