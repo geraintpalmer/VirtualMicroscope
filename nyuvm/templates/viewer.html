@@ -61,7 +61,7 @@
 			{%endif%}
 		{%else%}
 			{% if collectionslide %}
-				<a class="subnavlink" href="{{URL_ROOT}}/v/{{collectionslide.id}}/">View full version</a>
+				<a class="subnavlink" target=_top href="{{URL_ROOT}}/v/{{collectionslide.id}}/">View full version</a>
 			{%endif%}	
 		{%endif%}
 	</div>
@@ -96,7 +96,9 @@
 		
 		<a class="btn btn-mini pull-right slidebutton" href="javascript:showmetadata({{collectionslide.id}});" id="{{collectionslide.id}}" ><i class="icon-info-sign"></i> Info</a><br clear="all">
 		{% if user in collectionslide.collection.authors.all or user.is_superuser %}
+		{% if not compact %}
 			<a class="btn btn-mini btn-primary pull-right slidebutton" href="{{URL_ROOT}}/editcollectionslide/{{collectionslide.id}}/" ><i class="icon-edit icon-white"></i> Edit</a><br clear="all">
+		{% endif %}
 		{% endif %}
 
 		{% if related_slides %}
