@@ -6,12 +6,11 @@ VirtualMicroscope is `hosted on GitHub <https://github.com/evildmp/VirtualMicros
 
 To install::
 
-    git clone git@github.com:evildmp/VirtualMicroscope.git
+    git clone -b hackday git@github.com:evildmp/VirtualMicroscope.git  # use the hackday branch
     cd VirtualMicroscope
-    git checkout hackday  # for now, until our work goes into the master branch
     virtualenv env  # create a virtual environment
     source env/bin/activate  # activate it
-    pip install -r requirements.txt  # install required components
+    pip install -e .  # run setup.py and install required components
 
 This repository includes a demo project, so we'll use that to get started.
 
