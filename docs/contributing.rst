@@ -9,7 +9,7 @@ individuals to contribute to its source code.
 Contributing
 ************
 
-People interested in contributing to VirtualMicroscope should join the can visit #virtualmicroscope
+People interested in contributing to VirtualMicroscope can visit #virtualmicroscope
 on the `freenode`_ IRC network for help and to discuss the development.
 
 VirtualMicroscope is `hosted on GitHub <https://github.com/evildmp/VirtualMicroscope>`_.
