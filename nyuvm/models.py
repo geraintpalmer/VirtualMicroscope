@@ -28,7 +28,7 @@ class Slide(models.Model):
 	maxzoomlevel = models.IntegerField( verbose_name="Maximum Google Zoom Level")
 	viewcount = models.IntegerField(blank=True, null=True)
 	adddate = models.DateTimeField(auto_now_add=True)
-	thumbnail = models.ImageField(upload_to=get_upload_path,null=True, blank=True, default='/static/img/thumb-default.gif')
+	thumbnail = models.ImageField(upload_to=get_upload_path,null=True, blank=True, default=settings.STATIC_URL + 'img/thumb-default.gif')
 	
 	def __str__(self):
 		if self.label: return self.label
