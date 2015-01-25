@@ -173,7 +173,7 @@
 		 {% if user.is_authenticated %}
 			<p class="navbar-text pull-right">Logged in as <a href="{{URL_ROOT}}/cas/logout/">{% if user.first_name %}{{user.first_name}}{% else %}{{user.username}}{% endif %}</a></p>
 		 {%else%}
-			<p class="navbar-text pull-right"><a href="{{login_url}}" class="pull-right">Login</a></p>
+			<p class="navbar-text pull-right"><a href="/admin" class="pull-right">Login</a></p>
 		{% endif %}
 
 	  </div>
